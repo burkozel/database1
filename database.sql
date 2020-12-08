@@ -14,6 +14,6 @@ CREATE TABLE IF NOT EXISTS Track(
 	id serial primary key,
 	year numeric(4,0) NOT NULL,
 	name varchar(100) NOT NULL,
-	length numeric(3, 2)
+	length numeric(3, 2) NOT NULL,
 	albumid integer REFERENCES Album(id)
 );
