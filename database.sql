@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS Performer(
 	id serial primary key,
-	name varchar(35) NOT NULL UNIQUE,
+	name varchar(100) NOT NULL UNIQUE,
 );
 
 cCREATE TABLE IF NOT EXISTS Album(
